@@ -1,3 +1,6 @@
+mod cli_parse;
+
 fn main() {
-    println!("Hello, world!");
+    let program_data = cli_parse::parse();
+    println!("{:#?}", program_data);
 }
