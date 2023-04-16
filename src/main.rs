@@ -1,4 +1,5 @@
 mod cli_parse;
+mod fizzbuzz;
 mod program_data;
 
 fn main() {
